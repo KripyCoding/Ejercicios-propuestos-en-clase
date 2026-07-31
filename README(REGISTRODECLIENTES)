@@ -1,0 +1,73 @@
+# Registro de Clientes
+
+## Descripción
+
+Este proyecto consiste en una aplicación de escritorio desarrollada en C# utilizando Windows Forms. Su propósito es permitir el registro de clientes mediante un formulario con validación de datos, almacenando la información ingresada en una lista dentro de la misma aplicación.
+
+El sistema verifica que los campos obligatorios estén completos antes de registrar un cliente y permite administrar los registros de forma sencilla.
+
+## Funcionalidades
+
+- Registro de clientes.
+- Validación de nombre, teléfono y correo electrónico.
+- Almacenamiento de los clientes registrados en un ListBox.
+- Eliminación de clientes seleccionados.
+- Limpieza de los campos del formulario.
+- Opción para cerrar la aplicación.
+
+## Controles utilizados
+
+- Label
+- TextBox
+- ListBox
+- Button
+- MessageBox
+
+## Tecnologías utilizadas
+
+- C#
+- .NET
+- Windows Forms
+- Visual Studio 2022
+
+## Estructura del proyecto
+
+```
+RegistroClientes
+│
+├── Form1.cs
+├── Form1.Designer.cs
+├── Program.cs
+├── RegistroClientes.csproj
+└── README.md
+```
+
+## Ejecución del proyecto
+
+1. Clonar o descargar el repositorio.
+2. Abrir la solución en Visual Studio.
+3. Compilar el proyecto.
+4. Ejecutar la aplicación presionando **F5** o **Ctrl + F5**.
+
+## Captura de pantalla
+
+https://cdn.discordapp.com/attachments/1496542857715126393/1532561203904253952/image.png?ex=6a6d4c58&is=6a6bfad8&hm=9d2b5a72c17f7689b106160aa03fbc33756b54dfc87874dfeef4e31a58440c0a&
+
+## Objetivos de la práctica
+
+Durante el desarrollo de esta aplicación se aplicaron los siguientes conceptos:
+
+- Diseño de interfaces gráficas con Windows Forms.
+- Uso de controles básicos.
+- Validación de datos ingresados por el usuario.
+- Manejo de eventos.
+- Manipulación de colecciones mediante ListBox.
+- Programación orientada a eventos.
+
+## Autor
+
+Adrián Rafael Sarit Ogando
+
+Universidad Central del Este (UCE)
+
+Asignatura: Programación Básica
