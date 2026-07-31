@@ -1,1 +1,81 @@
+# Menú del Colmado
 
+## Descripción
+
+Este proyecto consiste en una aplicación de escritorio desarrollada en C# utilizando Windows Forms. Su objetivo es simular un sistema básico de ventas de un colmado, permitiendo al usuario seleccionar un producto, indicar la cantidad que desea comprar, elegir la forma de pago y calcular automáticamente el total de la compra.
+
+## Funcionalidades
+
+- Selección de productos mediante un ComboBox.
+- Ingreso de la cantidad de productos.
+- Selección de la forma de pago (efectivo o tarjeta).
+- Cálculo automático del total de la compra.
+- Limpieza de los datos del formulario.
+- Opción para salir de la aplicación.
+
+## Controles utilizados
+
+- Label
+- ComboBox
+- TextBox
+- GroupBox
+- RadioButton
+- Button
+
+## Tecnologías utilizadas
+
+- C#
+- .NET
+- Windows Forms
+- Visual Studio 2022
+
+## Estructura del proyecto
+
+```text
+MenuDelColmado
+│
+├── Form1.cs
+├── Form1.Designer.cs
+├── Program.cs
+├── MenuDelColmado.csproj
+├── images
+│   └── menu-colmado.png
+└── README.md
+```
+
+## Captura de pantalla
+
+<p align="center">
+    <img src="images/menu-colmado.png" width="700">
+</p>
+
+## Objetivos de aprendizaje
+
+Durante el desarrollo de esta práctica se aplicaron los siguientes conceptos:
+
+- Creación de interfaces gráficas con Windows Forms.
+- Uso de ComboBox para la selección de productos.
+- Manejo de RadioButton para la forma de pago.
+- Validación de datos ingresados por el usuario.
+- Realización de operaciones aritméticas.
+- Programación orientada a eventos.
+
+## Requisitos
+
+- Visual Studio 2022 o superior.
+- .NET compatible con Windows Forms.
+
+## Ejecución
+
+1. Clonar o descargar el repositorio.
+2. Abrir el proyecto en Visual Studio.
+3. Compilar la aplicación.
+4. Ejecutar con **F5** o **Ctrl + F5**.
+
+## Autor
+
+Adrián Rafael Sarit Ogando
+
+Universidad Central del Este (UCE)
+
+Asignatura: Programación Básica
