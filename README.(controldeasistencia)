@@ -1,1 +1,28 @@
 
+# Control de Asistencia
+
+## Descripción
+
+Aplicación desarrollada en C# con Windows Forms que permite registrar la asistencia de un grupo de estudiantes.
+
+El usuario puede seleccionar un estudiante de una lista, indicar si está presente mediante un CheckBox y generar un resumen de la asistencia en un segundo ListBox.
+
+## Características
+
+- Lista de estudiantes.
+- Selección de un estudiante.
+- Registro de asistencia (Presente o Ausente).
+- Resumen de asistencia mostrado en un segundo ListBox.
+
+## Funcionamiento
+
+1. Al iniciar la aplicación se cargan los estudiantes en el primer ListBox.
+2. El usuario selecciona un estudiante.
+3. Marca o desmarca el CheckBox **Presente**.
+4. Al hacer clic en **Resumen**, se agrega al segundo ListBox el nombre del estudiante junto con su estado de asistencia.
+
+## Ejemplo Visual
+
+## Autor
+
+Carlos Jair Encarnación Mercedes
